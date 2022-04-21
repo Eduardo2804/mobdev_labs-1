@@ -6,8 +6,8 @@
  
 <ion-content class="ion-padding">
   <ion-list>
-    <ion-item button detail lines="inset" *ngFor="let film of (People | async)?.results" (click)="openDetails(People)">
-      {{ People}}
+    <ion-item button detail lines="inset" *ngFor="let film of (people | async)?.results" (click)="openDetails(people)">
+      {{ people}}
     </ion-item>
   </ion-list>
 </ion-content>
